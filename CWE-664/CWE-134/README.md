@@ -10,6 +10,7 @@ This [noncompliant01.py](noncompliant01.py) leaks the global `ENCRYPTION_KEY`  v
 
 *[noncompliant01.py](noncompliant01.py):*
 
+
 ```python:noncompliant01.py
 ```
 
