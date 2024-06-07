@@ -2,7 +2,7 @@
 import sys
 
 # Simulating a global include of sensitive information:
-ENCRYPTION_KEY = "FL4G1"
+ENCRYPTION_KEY = "FLOCK"
 
 # Simulating a include per language:
 MESSAGE = "Contract '{0.instance_name}' created for "
