@@ -10,9 +10,8 @@ This [noncompliant01.py](noncompliant01.py) leaks the global `ENCRYPTION_KEY`  v
 
 *[noncompliant01.py](noncompliant01.py):*
 
+https://raw.githubusercontent.com/myteron/secure_coding_one_stop_shop_for_python/file_includes_in_readme/CWE-664/CWE-134/compliant01.py
 
-```python:noncompliant01.py
-```
 
 When `front_end("{0.__init__.__globals__[ENCRYPTION_KEY]}")` is called:
 
