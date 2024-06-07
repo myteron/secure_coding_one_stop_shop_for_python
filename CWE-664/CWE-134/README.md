@@ -10,7 +10,7 @@ This [noncompliant01.py](noncompliant01.py) leaks the global `ENCRYPTION_KEY`  v
 
 *[noncompliant01.py](noncompliant01.py):*
 
-https://github.com/myteron/secure_coding_one_stop_shop_for_python/blob/252e38d95d94eceb06c92f6c51f59768951cd32e/CWE-664/CWE-134/noncompliant01.py#L1-L35
+https://github.com/myteron/secure_coding_one_stop_shop_for_python/blob/3a3bb4e7240620794861d3b0740200fdcea23275/CWE-664/CWE-134/noncompliant01.py#L1-L35
 
 When `front_end("{0.__init__.__globals__[ENCRYPTION_KEY]}")` is called:
 
@@ -26,8 +26,7 @@ The `compliant01.py` solution uses the string template module and avoids mixing 
 
 *[compliant01.py](compliant01.py):*
 
-```python:compliant01.py
-```
+https://github.com/myteron/secure_coding_one_stop_shop_for_python/blob/3a3bb4e7240620794861d3b0740200fdcea23275/CWE-664/CWE-134/compliant01.py#L1-L40
 
 ## Automated Detection
 
